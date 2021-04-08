@@ -82,7 +82,7 @@ html{
 
 .carousel__item img{
     width: 100%;
-    height: 40rem;
+    height: 50rem;
 }
 
 /* Next & previous buttons */
@@ -275,11 +275,10 @@ html{
 }
 
 .footer{
-
+    background-color: var(--primary-color);
 }
 
 .footer__container{
-    background-color: var(--primary-color);
     height: 16rem;
     margin-top: 3.2rem;
     display: flex;
