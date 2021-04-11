@@ -27,7 +27,7 @@ html{
 /* Header */
 
 .header{
-
+    
 }
 
 .header__container{
@@ -37,14 +37,15 @@ html{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.6rem 7.5rem 1.6rem 0;
+    padding: 1.6rem 7.5rem 1.6rem 1.6rem;
 }
 
 .header__nav{
     border-top: 1px solid #EAEAEA;
     border-bottom: 1px solid #EAEAEA;
-    text-align: center;
     height: 4.8rem;
+    display: flex;
+    justify-content: space-around;
 }
 
 .header__nav-item{
